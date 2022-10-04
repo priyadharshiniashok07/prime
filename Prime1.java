@@ -6,7 +6,7 @@ public class Prime1 {
          int num = 29;
         boolean str = false;
         for (int i = 2; i <= num / 2; ++i) {
-            // condition for nonprime number
+            
             if (num % i == 0) {
                 str = true;
                 break;
